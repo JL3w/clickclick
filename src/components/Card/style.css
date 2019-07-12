@@ -1,0 +1,49 @@
+.card { 
+  height: 250px;
+  width: 250px;
+  margin: 12px 32px;
+  background-size: cover;
+  cursor: pointer;
+}
+@media (max-width: 1570px) {
+  .card {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .card {
+    height: 175px;
+    width: 175px;
+  }
+}
+
+@media (max-width: 1194px) {
+  .card {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .card {
+    height: 125px;
+    width: 125px;
+  }
+}
+
+@media (max-width: 708px) {
+  .card {
+    height: 100px;
+    width: 100px;
+    
+  }
+}
+
+@media (max-width: 615px) {
+  .card {
+    height: 75px;
+    width: 75px;
+  }
+}

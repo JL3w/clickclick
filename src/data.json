@@ -2,61 +2,61 @@
     {
         "id": 1,
         "image": "/assets/images/ghost.png",
-        "clicked": false
+        "clickstate": false
     },
     {
         "id": 2,
         "image": "/assets/images/oglethorpe.png",
-        "clicked": false
+        "clickstate": false
     },
     {
         "id": 3,
-        "image": "/assets/images/handbananapng",
-        "clicked": false
+        "image": "/assets/images/handbanana.png",
+        "clickstate": false
     },
     {
         "id": 4,
         "image": "/assets/images/danzig.png",
-        "clicked": false
+        "clickstate": false
     },
     {
         "id": 5,
         "image": "/assets/images/oldrippy.png",
-        "clicked": false
+        "clickstate": false
     },
     {
         "id": 6,
         "image": "/assets/images/err.png",
-        "clicked": false
+        "clickstate": false
     },
     {
         "id": 7,
         "image": "/assets/images/romulux.png",
-        "clicked": false
+        "clickstate": false
     },
     {
         "id": 8,
         "image": "/assets/images/carl.png",
-        "clicked": false
+        "clickstate": false
     },
     {
         "id": 9,
-        "image": "/assets/images/mmcpp.png",
-        "clicked": false
+        "image": "/assets/images/mcpp.png",
+        "clickstate": false
     },
     {
         "id": 10,
         "image": "/assets/images/meatwad.png",
-        "clicked": false
+        "clickstate": false
     },
     {
         "id": 11,
         "image": "/assets/images/frylock.png",
-        "clicked": false
+        "clickstate": false
     },
     {
         "id": 12,
         "image": "/assets/images/mastershake.png",
-        "clicked": false
+        "clickstate": false
     }
 ]

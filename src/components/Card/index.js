@@ -1,16 +1,14 @@
 import React from "react";
-import {
-    Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
-} from 'reactstrap';
+import "./style.css";
 
-function card(props) {
+function Card(props) {
     return (
-        <div>
-            <img 
-                className="img-circle img-no-padding img-responsive"
-                src={`require("${props.image}")`}
-            />
-        </div>
+        <div
+            role="img"
+            onClick={() => props.handleClick(props.id)}
+            style={{ backgroundImage: `url("${props.image}")` }}
+            className={`card${props.shake ? " shake" : ""}`}
+        />
     )
 }
+export default Card;

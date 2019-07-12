@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import {
     NavbarBrand,
     Navbar,
@@ -9,15 +10,20 @@ import {
     Row,
     Col
 } from "reactstrap";
-function Nav2() {
+function Nav2(props) {
     return (
         <Navbar className="bg-primary" expand="lg">
             <NavbarBrand onClick={e => e.preventDefault()}>
-                Click Click
+                Aqua Teen Hunger Click
             </NavbarBrand>
-            <Nav className="mr-auto" navbar>
+            <Nav className="Nav ml-auto" navbar>
                 <NavItem>
-    
+                    Score: {props.score} 
+                </NavItem>
+            </Nav>
+            <Nav className="rightNav ml-auto" navbar>
+                <NavItem>
+                    High Score: {props.topScore}
                 </NavItem>
             </Nav>
         </Navbar>
