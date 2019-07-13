@@ -4,10 +4,10 @@ import "./style.css";
 function Card(props) {
     return (
         <div
+            className="card"
             role="img"
-            onClick={() => props.handleClick(props.id)}
             style={{ backgroundImage: `url("${props.image}")` }}
-            className={`card${props.shake ? " shake" : ""}`}
+            onClick={() => props.cardClick(props.id)}            
         />
     )
 }

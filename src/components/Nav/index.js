@@ -4,11 +4,7 @@ import {
     NavbarBrand,
     Navbar,
     NavItem,
-    NavLink,
-    Nav,
-    Container,
-    Row,
-    Col
+    Nav
 } from "reactstrap";
 function Nav2(props) {
     return (
@@ -23,7 +19,7 @@ function Nav2(props) {
             </Nav>
             <Nav className="rightNav ml-auto" navbar>
                 <NavItem>
-                    High Score: {props.topScore}
+                    High Score: {props.highscore} &nbsp;
                 </NavItem>
             </Nav>
         </Navbar>
